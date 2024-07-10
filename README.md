@@ -15,13 +15,12 @@ Compila el proyecto:
 bash
 Copiar código
 javac -cp gson-2.8.8.jar:. Main.java
+
 ## Ejecuta el programa:
 bash
 Copiar código
 java -cp gson-2.8.8.jar:. Main
 Sigue las instrucciones en pantalla para seleccionar la conversión deseada e ingresa el monto a convertir.
-Código de Ejemplo
-Aquí está el código principal del proyecto:
 
 ## API Key
 Este proyecto utiliza la API de Exchangerate para obtener las tasas de conversión. Asegúrate de reemplazar "6703eb13a387649146aff318" en la URL con tu propia API Key de Exchangerate.
@@ -34,5 +33,6 @@ Crea una rama (git checkout -b feature/nueva-funcionalidad).
 Realiza tus cambios y haz commit de ellos (git commit -am 'Agregar nueva funcionalidad').
 Empuja tus cambios (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request.
+
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
